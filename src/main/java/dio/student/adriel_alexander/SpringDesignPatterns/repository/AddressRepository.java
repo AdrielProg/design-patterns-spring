@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import dio.student.adriel_alexander.SpringDesignPatterns.model.Address;
 
 @Repository
-public interface AddressRepository extends CrudRepository<Address, Long> {
+public interface AddressRepository extends CrudRepository<Address, String> {
 
 }
